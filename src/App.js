@@ -26,9 +26,10 @@ useEffect(()=>{
         <div className='search'>
           <input 
           placeholder='Search for Movie'
+          id="input"
           value={searchTerm}
           onChange={(e)=>{setsearchTerm(e.target.value)}}/>
-          <button onClick={()=>{searchMovie(searchTerm)}}><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button id="btn" onClick={()=>{searchMovie(searchTerm)}}><i class="fa-solid fa-magnifying-glass"></i></button>
           
         </div>
         {movies?.length > 0 ? (<div className='container'>
