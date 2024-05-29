@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/codewithdann0/search-movie.git/static/css/main.2b94a9ac.css",
+    "main.js": "/codewithdann0/search-movie.git/static/js/main.0fad6601.js",
+    "index.html": "/codewithdann0/search-movie.git/index.html",
+    "main.2b94a9ac.css.map": "/codewithdann0/search-movie.git/static/css/main.2b94a9ac.css.map",
+    "main.0fad6601.js.map": "/codewithdann0/search-movie.git/static/js/main.0fad6601.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b94a9ac.css",
+    "static/js/main.0fad6601.js"
+  ]
+}
