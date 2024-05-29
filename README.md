@@ -42,3 +42,5 @@ This project is licensed under the MIT License.
 Acknowledgements
 This project was created as part of a ReactJS learning journey.
 Thanks to OMDb API for providing movie data.
+![Screenshot from 2024-05-29 11-24-42](https://github.com/codewithdann0/search-movie/assets/166249731/68bd3e0a-8638-4a1b-aee3-7fec57483236)
+
