@@ -10,16 +10,10 @@ function App() {
   const data = await response.json();
   setMovies(data.Search);
   }
-const thisobj={
-    "Title": "Spiderman",
-    "Year": "1990",
-    "imdbID": "tt0100669",
-    "Type": "movie",
-    "Poster": "N/A"
-}
+ 
 useEffect(()=>{
-  searchMovie("Spiderman");
-},[])
+  searchMovie("after we ");
+})
   return (
     <div id="root">
           <h1>CinemaNavigator</h1>

@@ -2,7 +2,7 @@
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 400;
  
- background: linear-gradient(135deg, #1a2a6c, #b21f1f, yellow);
+background: linear-gradient(135deg, #1a2a6c, #b21f1f, rgb(247, 247, 5));
  color: #fff;
 }
 body{
@@ -45,7 +45,7 @@ button{
 }
 
 .movie {
-  background-color: #f0f0f0;
+  background-color: white;
     padding: 20px;
     margin: 10px auto;
     width: 100%;
@@ -59,9 +59,39 @@ button{
   object-fit: cover;
 }
 
-.movie p {
-  color: rgba(255, 255, 255, 0.8);
+.movie div  p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 .movie h3 {
   color: rgba(255, 255, 255, 0.8);
 }
+
+.movie div span,h3{
+  color: #f0f0f0;
+  font-size: 20px;
+  background-color:black !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+::-webkit-scrollbar {
+  width: initial;
+  height: initial;
+  scrollbar-width: 0;
+  display: none;
+}
+
+@media (max-width :760px){
+  .movie{
+    height: 400px;
+    width: 200px;
+   height: auto;
+  overflow: hidden;
+  }
+  .movie div img{
+     height:250px;
+    width: 100%;
+    height: auto;
+  }
+}
+
